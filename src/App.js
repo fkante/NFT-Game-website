@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 
-
 import { CONTRACT_ADDRESS, transformCharacterData } from './constants';
 import myEpicGame from './utils/MyEpicGame.json';
 import Arena from './Components/Arena';
 import './App.css';
 import SelectCharacter from './Components/SelectCharacter';
 import LoadingIndicator from './Components/LoadingIndicator';
-import twitterLogo from './assets/twitter-logo.svg';
 
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState(null);
@@ -51,10 +47,7 @@ const App = () => {
     if (!currentAccount) {
       return (
         <div className="connect-wallet-container">
-          <img
-            src="https://64.media.tumblr.com/tumblr_mbia5vdmRd1r1mkubo1_500.gifv"
-            alt="Monty Python Gif"
-          />
+        <img src="https://i.imgur.com/UMb6UXc.gif" title="source: imgur.com" />
           <button
             className="cta-button connect-wallet-button"
             onClick={connectWalletAction}
@@ -133,13 +126,6 @@ const App = () => {
           {renderContent()}
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`built with @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
