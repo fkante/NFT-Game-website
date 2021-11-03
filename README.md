@@ -1,4 +1,4 @@
-# buildspace NFT Game Project
+# NFT Game Front
 
 ### **Welcome 👋**
 This project is comprised of the front, react App and the back with the solidity smart contract
