@@ -1,9 +1,10 @@
 # NFT Game Front
 
 ### **Welcome 👋**
+This a mini turn-based NFT browser game.
 This project is comprised of the front, react App and the back with the solidity smart contract
 
-The project was done in a week-end hackhaton following guidelines of _buildspace 
+The project was done in a weekend hackhaton following guidelines of _buildspace 
 "Create your own mini turn-based NFT browser game" is at https://buildspace.so/, ( twitter @_buildspace )
 
 ### Deployments
