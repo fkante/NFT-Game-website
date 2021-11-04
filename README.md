@@ -9,6 +9,6 @@ The project was done in a weekend hackhaton following guidelines of _buildspace
 
 ### Deployments
 Smart Contract is deployed to Rinkeby ethereum test network at 0x5ce8e2B3695665FD91dF29a6D84618deb0B87504 @ https://rinkeby.etherscan.io/address/0x5ce8e2B3695665FD91dF29a6D84618deb0B87504
-React App is online at https://nft-game-starter-project.fkante.repl.co/
+React App is online at https://smartcontractuits.fkante.repl.co/
 
-To play the small game you'll need to install Metamask
+To wave at me you'll need to connect your wallet
